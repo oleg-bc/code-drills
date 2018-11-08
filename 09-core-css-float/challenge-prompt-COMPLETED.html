@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Floats</title>
 </head>
@@ -13,29 +13,38 @@
         padding: 20px;
         width: 300px;
         margin: 20px;
+
         background-color: red;
         /* Float this element to the left */
         float: left;
+
     }
 
     #yellow-textbox {
         padding: 20px;
         width: 300px;
         margin: 20px;
+
         background-color: yellow;
+
         /* Float this element to the right */
-        float: right;
+        float:right;
+
     }
 
     .blue-textbox {
         padding: 20px;
         width: 300px;
         margin: 20px;
+
         background-color: blue;
+        
         /* Clear the float for this element so it appears below the red and yellow boxes */
-        float: none;
+            /* float: none; */
+        clear: both;
     }
 
+    
 </style>
 
 <body>
