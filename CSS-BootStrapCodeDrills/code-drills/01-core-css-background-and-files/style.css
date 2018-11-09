@@ -8,4 +8,9 @@
   /* This is for our anchor (<a>) tag. It makes it so that there is a scrolling effect when we navigate to other parts of our page */
   scroll-behavior: smooth;
 }
-
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: darkorange;
+  position: relative;
+}
