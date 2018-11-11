@@ -6,18 +6,24 @@ You are provided a simple HTML page with images and will use an external css fil
 
 ## Instructions
 
-* First and most importantly, let's create a link to the stylesheet
+* let's create a link to the stylesheet
 * Give the `sky` div the following properties:
     * a background image. Use the provided image inside the images folder named `background.png`
     * A width of `100%`
     * A height of `2000px`
     * `position: relative`
-* Create a new class that sets a maximum width of 200px. Apply this class to every image except the moon
-* Using absolute positioning, align the first alien slightly to the left and towards the bottom half of the `sky` div
+* Create a new class that sets a maximum width of 200px. 
+    * Apply this class to every image 
+        * except the moon
+* Using absolute positioning,   
+    * align the first alien slightly to the left and towards the bottom half of the `sky` div
     * Note: He should not be seen until you scroll down
-* Align the second alien slightly to the center right but keep him slightly closer to the top of the page
+* Align the second alien slightly to the center right  
+
+    * but keep him slightly closer to the top of the page
 * Align the star to the top right of the page
-* Align the meteor to the center of the page and give it a fixed position
+* Align the meteor to the center of the page 
+    * and give it a fixed position
 * Align the dinosaur to the bottom of the `sky` div
 * Give the meteor a `z-index` of 2 and the dinosaur a `z-index` of 1
 
