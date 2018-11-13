@@ -1,0 +1,53 @@
+/* Find 4 fonts you want to use in google fonts
+
+Use a different font on each <p> tag within the page
+
+DONE :Bold the main page header (<h1>) and set its size to be 40 pixels
+
+DONE: Italicize the subtitle for the page header (<h3>) 
+WHATS LINE HEIGHT:   and set the line height to be 30 pixels
+
+Bonus
+
+Make each of the <p> tags have a different font and font size when you hover over it */
+
+/* font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'Permanent Marker', cursive; */
+
+h1{
+    font-weight: bold; 
+    size: 40px;
+}
+
+h3 {
+    font-style: italic;
+}   
+
+.first{
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+
+.second{
+    font-family: 'Kanit', sans-serif;
+
+
+}
+.third{
+    font-family: 'Righteous', cursive;
+
+}
+
+
+.fourth{
+    font-family: 'Teko', sans-serif;
+
+}
+
+.fifth{
+    font-family: 'Permanent Marker', cursive;
+}
