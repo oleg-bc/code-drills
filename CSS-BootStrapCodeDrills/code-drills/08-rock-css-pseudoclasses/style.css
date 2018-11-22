@@ -2,6 +2,7 @@
   height: 150px;
   width: 250px;
   margin: 20px;
+  display: inline-block;
 }
 
 .inside-box {
@@ -37,3 +38,61 @@ button {
 
 /* Your code goes below here! */
 
+/* Now that everything is floated, let's use the hover pseudo class to decrease the size of the first box on the bottom when we hover over it with the cursor */
+#bottom1:hover{
+  height:75px;
+  float: left;
+}
+
+/* You can use the active pseudo class even on elements that aren't buttons! Let's set one for the second box on the bottom that gives it a large margin on the right when clicked. */
+#bottom2:active{
+  margin-right:350px;
+  display:inline-block;
+}
+
+/* Let's combine what we learned! Change the color when we hover over the third box on the bottom. Then make that box float to the right when clicked */
+
+#bottom3:hover{
+ background-color: yellow;
+}
+#bottom3:active{
+  float:right;
+  background-color:yellow;
+}
+/* 
+Let's make the buttons more exciting! Make the even numbered buttons (class btn-even) change height and width on hover. Then, make them change to yet another height and width when clicked on. */
+
+.btn-even:hover{
+  height:120px;
+  width:240px;
+  display:inline-block;
+  
+}
+
+.btn-even:active{
+  height:70px;
+  width:160px;
+  display:inline-block;
+
+}
+
+/* We can change any styling we want using these pseudo classes. Let's modify the odd numbered buttons.
+Change the color of the text and the background color when they're hovered over. And then add in styling so the border style, width, and color changes too when hovered.
+Use a different set of colors and values to set the text color, background color, border width, border color, and border style of the odd buttons when they're clicked. */
+
+.btn-odd:hover{
+  color: white;
+  background-color: black;
+  border-style: inset;
+  width:220px;
+  border-color: orangered;
+}
+
+
+.btn-odd:active{
+  color: greenyellow;
+  background-color: darkslateblue;
+  border-style: dashed;
+  width:180px;
+  border-color: aqua;
+}
