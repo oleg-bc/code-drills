@@ -27,7 +27,7 @@ body {
   font-size: 2.5rem;
   text-align: center;
   color: seagreen;
-  display: none;
+  /* display: none; */
 }
 
 .about {
@@ -87,8 +87,29 @@ Therefore, we want our media queries in descending order, so that the most recen
 /* This makes it so that every element using rem will shrink a little bit as our screen size does.  */
   html {
     font-size: 55%;
+
+  }
+  h1 {
+    color: blue;
+  }
+  
+  .heading-sub {
+    font-size: 2.5rem;
+    text-align: center;
+    color: seagreen;
+    display: none;
   }
 
+  p {
+      color:white;
+      background-color: orangered;
+  }
+    .about__box--center{
+     width: 57%;
+     border-color: blue;
+     color: orangered; 
+     background-color: orangered;
+    }
   
 }
 
@@ -96,9 +117,67 @@ Therefore, we want our media queries in descending order, so that the most recen
 @media (max-width: 900px) {
 /* Set the font-size to 45% */
 
+
+html {
+  font-size: 50%;
+
+}
+h1 {
+  color: purple;
+  
+}
+
+.heading-sub {
+  font-size: 2.5rem;
+  text-align: center;
+  color: seagreen;
+  
+}
+p {
+    color:black;
+    background-color: yellow;
+}
+
+
+.btn {
+  margin: 2rem auto;
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  background-color:red;
+  color: white;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  transition: .2s;
+  transform: translateY(-200px);
+  
+}
+
+.about__box--center{
+  width: 80%;
+  border-color: green;
+  color: yellow; 
+  background-color: yellow;
+  border-radius: 2px;
+  border-width: 10px;
+  transform: translateY(50px);
+ }
+
+
+
+
 }
 
 @media (max-width: 600px) {
   /* For the colorful background, look up setting a background-image to a linear gradient in css */
+
+
+  .heading-sub {
+    font-size: 2.5rem;
+    text-align: center;
+    color: seagreen;
+    
+  }
 
 }
